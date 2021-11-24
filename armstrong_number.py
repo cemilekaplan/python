@@ -14,7 +14,7 @@ checks the entered number if it is Armstrong,
 consider the negative, float and any entries other than numeric values then display a warning message to the user.
 """
 
-num = input("Enter your number: ")
+num = input("Enter your number: ") 
 
 if num.isdigit() and int(num) > 0 :
   length = len(num)
