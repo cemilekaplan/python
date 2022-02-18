@@ -1,4 +1,4 @@
-from tokenize import Name
+
 
 
 def print_menu():
@@ -6,7 +6,6 @@ def print_menu():
     print('2. Insert a phone number')
     print('3. Delete a person from the phonebook')
     print('4. Terminate')
-    
     print()
 
 numbers = {}
